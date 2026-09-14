@@ -12,11 +12,13 @@ import {
   Car, 
   ExternalLink,
   CheckCircle,
-  Activity
+  Activity,
+  PenTool
 } from 'lucide-react';
 
 const NAV_ITEMS = [
   { name: 'Command Center', href: '/', icon: LayoutDashboard },
+  { name: 'AI Content Studio', href: '/content-studio', icon: PenTool, badge: 'GEO/AEO' },
   { name: 'Suggestions Queue', href: '/suggestions', icon: Sparkles, badge: '4' },
   { name: 'Competitor Radar', href: '/competitors', icon: ShieldAlert },
   { name: 'Keyword Tracker', href: '/keywords', icon: Search },
